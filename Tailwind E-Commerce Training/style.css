@@ -1,0 +1,10 @@
+@keyframes slideText {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.developer-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideText 20s linear infinite;
+}
